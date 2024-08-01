@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 600px;
+}
+h1 {
+	color: brown;
+	margin-top: 0;
+	margin-bottom: .5em;
+    text-align: center;
+    border-bottom: 2px solid;
+}
+h2 {
+	color: brown;
+	font-size: 120%;
+	padding: 0;
+	margin-bottom: .5em;
+}
+main {
+    padding: 1em 2em;
+    background-color: rgb(251, 233, 233);
+    border: 2px solid brown;
+    border-radius: 5px;
+
+}
+label {
+	float: left;
+    width: 3em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+p {
+	margin: 0;
+}
+td {
+	width: 10em;
+}
+
+#display_results, #display_scores, #add {
+    color: white;
+    background-color: brown;
+    width: 100pt;
+    height: 25pt;
+    border-radius: 2pt;
+    margin-left: 0;
+}
+
+#add {
+    margin-left: 10pt;
+}
+span {
+    color: red;
+    margin-left: 10pt;
+}
+
+#results {
+    border-top: 2px solid brown;
+    margin-top: 15pt;
+    border-bottom: 2px solid brown;
+    padding-bottom: 15pt;
+}
+
+th {
+    color: brown;
+    text-align: left;
+}
